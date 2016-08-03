@@ -25,4 +25,4 @@ before_script:
   - export DB_PASSWORD=
 
 script:  
-  - php artisan migrate --force && gulp && vendor/bin/phpunit
+  - ./build.sh
